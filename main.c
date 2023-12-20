@@ -11,9 +11,7 @@ int get_rdm(int i)
     int rdm = (rand() % (upper - lower + 1 )) + lower;
     return (rdm);
 }
-
-
-
+:
 int main (int ac, char **av)
 {
     int nbrdice;
